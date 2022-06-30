@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Unity WebGL Player | My project (3)</title>
+    <title>NFT Exhibit</title>
     <link rel="shortcut icon" href="TemplateData/favicon.ico">
     <link rel="stylesheet" href="TemplateData/style.css">
   </head>
@@ -56,11 +56,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/3.loader.js";
+      var loaderUrl = buildUrl + "/4.loader.js";
       var config = {
-        dataUrl: buildUrl + "/3.data.gz",
-        frameworkUrl: buildUrl + "/3.framework.js.gz",
-        codeUrl: buildUrl + "/3.wasm.gz",
+        dataUrl: buildUrl + "/4.data",
+        frameworkUrl: buildUrl + "/4.framework.js",
+        codeUrl: buildUrl + "/4.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "My project (3)",
@@ -82,8 +82,8 @@
         config.devicePixelRatio = 1;
         unityShowBanner('WebGL builds are not supported on mobile devices.');
       } else {
-        canvas.style.width = "1920px";
-        canvas.style.height = "1080px";
+        canvas.style.width = "960px";
+        canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
 
